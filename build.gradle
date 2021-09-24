@@ -28,4 +28,10 @@ dependencies {
 
 test {
 	useJUnitPlatform()
+    beforeTest { desc ->
+        logger.quiet "Testing: test ${desc.name} [${desc.className}] execution has been started"
+    }
+    afterTest { desc, result -> 
+        logger.quiet "Testing: test ${desc.name} [${desc.className}] was executed with result: ${result.resultType}"
+    }
 }

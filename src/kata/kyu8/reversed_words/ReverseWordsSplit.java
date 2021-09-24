@@ -1,6 +1,6 @@
 package kyu8.reversed_words;
 
-public class ReverseWords {
+public class ReverseWordsSplit {
     public static String reverseWords(String str) {
         String output = "";
 

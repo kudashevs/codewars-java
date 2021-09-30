@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class SmallestIntegerFinderLoopTest {
-
     @Test
     public void example1() {
         int expected = 11;
